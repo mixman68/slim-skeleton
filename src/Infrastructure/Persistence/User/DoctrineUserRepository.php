@@ -26,7 +26,7 @@ class DoctrineUserRepository implements UserRepository
     {
         $this->ormRepository = $em->getRepository(User::class);
     }
-    
+
     /**
      * {@inheritdoc}
      */
@@ -42,10 +42,10 @@ class DoctrineUserRepository implements UserRepository
     {
         $user = $this->ormRepository->find($id);
 
-        if($user == null) {
+        if ($user == null) {
             throw new UserNotFoundException();
         }
-        
+
         return $user;
     }
 }
