@@ -12,15 +12,10 @@ use Doctrine\ORM\EntityRepository;
 
 class DoctrineUserRepository implements UserRepository
 {
-    /**
-     * @var User[]
-     */
-    private array $users;
-
     private EntityRepository $ormRepository;
 
     /**
-     * @param User[]|null $users
+     * @param EntityManager $em
      */
     public function __construct(EntityManager $em)
     {
