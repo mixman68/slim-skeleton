@@ -25,8 +25,8 @@
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
         "doctrine/orm": "^2",
-        "monolog/monolog": "^2.8",
-        "php-di/php-di": "^6.4",
+        "monolog/monolog": "^3.3",
+        "php-di/php-di": "^7.0",
         "slim/psr7": "^1.5",
         "slim/slim": "^4.10",
         "symfony/cache": "^6.2"
