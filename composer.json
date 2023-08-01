@@ -28,7 +28,7 @@
         "monolog/monolog": "^3.3",
         "php-di/php-di": "^7.0",
         "slim/psr7": "^1.5",
-        "slim/slim": "^4.10",
+        "slim/slim": "^4.12",
         "symfony/cache": "^6.2"
     },
     "require-dev": {
